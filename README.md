@@ -9,9 +9,6 @@ Following the creation of DynamoDB, two Lambda functions are established. The fi
 The second, 's_azad_lambda_device,' is designed for response requests. The Python codes for these functions are available in 'put_device_data.py' and 
 'get_device_data.py.' Due to their dependencies, these functions are bundled with the required libraries in a zipped format.
 While considering the implementation of Zappa for real-world projects, I currently lack the necessary permissions to make changes in IAM.
-AWS API Gateway Configuration:
-Upon the creation of the DynamoDB table and Lambda functions, an AWS API Gateway,
-named 's.azad-api-device,' is configured. This API Gateway is designed with two distinct actions: 'GET' and 'Post,' 
-facilitating seamless communication with the associated Lambda functions.
+
 
 
